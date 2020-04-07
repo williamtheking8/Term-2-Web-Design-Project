@@ -1,0 +1,169 @@
+body {
+				background: url(BG.png) fixed center;
+				background-size: cover;
+				background-repeat: no-repeat;
+				font-family: 'Crete Round', serif;
+				
+			}
+			
+			
+			
+			
+			
+			
+
+			.container {
+				width: 1400px;
+				background-color: white;
+				border: 10px solid #000;
+				margin-left: auto;
+				margin-right: auto;
+				height: 1600px;
+			}
+
+			.content {
+				width: 1500px;
+				padding: 5px;
+				margin-top: 10px;
+			}
+			
+			
+			
+			
+			h1 { 
+			font-size: 90px;
+			margin-left: auto;
+			margin-top: auto;
+			margin-bottom: auto;
+			padding: 0px;
+			text-align: center;
+			
+			}
+			
+			.Mini {
+			font-size: 40px;
+			text-align: center;
+			margin-left:250px;
+			}
+
+			p {	
+				font-size: 20pt;
+				text-align: center;
+			}
+			
+			.Paragraph {
+			border: 5px solid transparent;	
+			border-width: 10px;
+			width: 820px;
+			margin-right: 150px;
+			float: right;
+			text-align: center;
+			margin-bottom: 100px;
+			
+
+			}
+			
+			
+			
+			
+			
+			img {
+				float: center;
+				margin-right: 20px;
+				margin-bottom: 5px;
+			}	
+			
+			
+			.Ball {
+			width: 70px;
+			height: 70px;
+			margin-right: -5px;
+			margin-bottom: auto;
+			}
+			
+			.Brawl {
+			width: 500px;
+			height: 400px;
+			padding: 10px;
+			margin: auto;
+			float: left;
+			border: 4px groove black;
+			padding: 0px;
+			
+		
+			}
+			.Brawl:hover{
+			transform: scale(1.2,1.2);
+			}	
+			ul {
+				list-style-type: none;
+				margin: 0px;
+				padding: 0px;
+				background-image: linear-gradient(to bottom right,yellow,white);
+				overflow: hidden;
+			}
+			
+			li {
+			float: left;
+			width: 280px;
+			}
+			
+			li a {
+				display: block;
+				color: black;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+			}
+			li a:hover:not(.current) {
+			background-color: blue;
+			}
+			table,th, td {
+			border: 1px solid black;
+			text-align: center;
+			background-image: linear-gradient(to bottom right,yellow,white);
+			width: 100%;
+			font-size: 17.48pt;
+			margin-up: -1000px;
+		
+}
+	
+			table {
+			border-collapse: collapse;
+			width: 1000px;
+	
+			}
+			th, td {
+			padding: 10px;
+			}
+			td {
+			width: 50px;
+			height: 20px;
+		
+			}
+			td:hover {
+			color: cyan;
+			background-image:  linear-gradient(to bottom right,blue,magenta);
+			transform: scale(1.2,1.2);
+}	
+			
+			
+			}
+			
+			.Title {
+			border-bottom: 3px solid gray;
+			width: 1400px;
+			text-align: center;
+			margin-left: -5px;
+			}
+			.current{
+				background-color: cyan;
+			}
+			.Select{
+			float: center;
+			border: 1px solid transparent;
+			height: 100px;
+			width: 300px;
+			text-align: center;
+			
+			}
