@@ -1,0 +1,161 @@
+body {
+				background: url(BG.png) fixed center;
+				background-size: cover;
+				background-repeat: no-repeat;
+				font-family: 'Crete Round', serif;
+			}
+			
+			
+			
+			
+			
+			
+
+			.container {
+				width: 1400px;
+				background-color: white;
+				border: 10px solid #000;
+				margin-left: auto;
+				margin-right: auto;
+				height: 1540px;
+			}
+
+			.content {
+				width: 1500px;
+				padding: 5px;
+				margin-top: 10px;
+			}
+			
+			
+			div.gallery{
+			margin: 5px;
+			border: 1px solid yellow;
+			float: left;
+			width: 450px;
+			height: 225px;
+			margin-bottom: 100px;
+			}
+			
+			div.gallery:hover{
+			
+			
+			
+			}
+			div.gallery img {
+			width: 100%;
+			height: 100%;
+			
+}
+			div.description {
+			padding: 17px;
+			text-align: center;
+			border: 1px solid black;
+			background-image: linear-gradient(to bottom right,yellow,white);
+			
+}
+			
+			h1 { 
+			font-size: 90px;
+			margin-left: -120px;
+			margin-top: auto;
+			margin-bottom: auto;
+			padding: 0px;
+			text-align: center;
+			}
+			
+			.Mini {
+			font-size: 40px;
+			text-align: center;
+			margin-left:250px;
+			}
+
+			p {	
+				font-size: 20pt;
+				text-align: center;
+			}
+			
+			.Paragraph {
+			border: 5px solid transparent;	
+			border-width: 10px;
+			width: 920px;
+			margin-right: 150px;
+			float: right;
+			text-align: center;
+			
+
+			}
+			
+			
+			
+			
+			
+			img {
+				float: center;
+				margin-right: 20px;
+				margin-bottom: 5px;
+			}	
+			
+			
+			.Ball {
+			width: 50px;
+			height: 50px;
+			margin-right: -5px;
+			margin-bottom: auto;
+			}
+			
+			.Brawl {
+			width: 400px;
+			height: 500px;
+			padding: 10px;
+			margin: 0px;
+			float: left;
+			border: 4px groove black;
+			padding: 0px;
+			
+			}
+			
+			ul {
+				list-style-type: none;
+				margin: 0px;
+				padding: 0px;
+				background-image: linear-gradient(to bottom right,yellow,white);
+				overflow: hidden;
+			}
+			
+			li {
+			float: left;
+			width: 280px;
+			}
+			
+			li a {
+				display: block;
+				color: black;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+			}
+			li a:hover:not(.current) {
+			background-color: blue;
+			}
+			
+			
+			
+			
+			}
+			
+			.Title {
+			border-bottom: 3px solid gray;
+			width: 1400px;
+			text-align: center;
+			margin-left: 0px;
+			}
+			.current{
+				background-color: cyan;
+			}
+			.World {
+			height: 500px; 
+			width: 1100px;
+			float: center;
+			margin-left: 150px;
+			margin-bottom: -20px;
+			}
